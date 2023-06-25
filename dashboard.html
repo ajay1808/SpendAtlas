@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>SpendAtlas</title>
     <style>
@@ -10,22 +11,43 @@
             background-color: #FFFFFF;
             color: #808285;
         }
+
         .header {
             background-color: #48848b;
             color: #e6e6e6;
             padding: 20px;
             text-align: center;
         }
+
+        .creator {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+            color: #808285;
+        }
+
+        .creator a {
+            color: #CC5500;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .creator a:hover {
+            color: #48848b;
+        }
+
         .content {
             display: flex;
             justify-content: center;
             margin: 20px;
         }
+
         .links {
             display: flex;
             justify-content: center;
             margin: 20px;
         }
+
         .link-button {
             display: inline-block;
             margin-right: 10px;
@@ -35,41 +57,49 @@
             text-decoration: none;
             transition: background-color 0.3s ease;
             border-radius: 5px;
+            color: #808285; /* text color in buttons */
         }
+
         .link-button:hover {
             background-color: #48848b;
         }
+
         .link-button img {
             width: 24px;
             height: 24px;
         }
+
         h1 {
             font-size: 2.5em;
             font-weight: lighter;
         }
     </style>
 </head>
+
 <body>
     <div class="header">
         <h1>SpendAtlas</h1>
+        <div class="creator">Created by <a href="https://ajayrangan.wixsite.com/world">Ajay Kasturirangan</a></div>
     </div>
     <div class="links">
-        <a href="https://github.com/ajay1808/SpendAtlas" class="link-button"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub"></a>
-        <a href="https://public.tableau.com/views/TIPS_16877028294050/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link" class="link-button"><img src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg" alt="Tableau Dashboard"></a>
-        <a href="https://github.com/OpportunityInsights/EconomicTracker/tree/main/data" class="link-button"><img src="https://pbs.twimg.com/profile_images/1043212246355243008/-NWnnkxI_400x400.jpg" alt="Data Source">  Data</a>
+        <a href="https://github.com/ajay1808/SpendAtlas" class="link-button"><img
+                src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub"></a>
+        <a href="https://public.tableau.com/views/TIPS_16877028294050/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link"
+            class="link-button"><img src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg"
+                alt="Tableau Dashboard"></a>
+        <a href="https://github.com/OpportunityInsights/EconomicTracker/tree/main/data" class="link-button"><img
+                src="https://pbs.twimg.com/profile_images/1043212246355243008/-NWnnkxI_400x400.jpg" alt="Data Source">
+            Data</a>
+        <a href="https://colab.research.google.com/drive/1bS_UXNNEbHk3yH-py```html
+        uZkF3a5K4QS3zL?usp=sharing" class="link-button"><img
+                src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Google_Colaboratory_SVG_Logo.svg"
+                alt="Google Colab"></a>
     </div>
     <div class="content">
-        <!-- Tableau Dashboard Embed Code Starts Here -->
-        <div class='tableauPlaceholder' id='viz1687729931870' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sp&#47;SpendAtlas&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SpendAtlas&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47```html
-&#47;Sp&#47;SpendAtlas&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    
-        var divElement = document.getElementById('viz1687729931870');                    
-        var vizElement = divElement.getElementsByTagName('object')[0];                    
-        if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1227px';}                     
-        var scriptElement = document.createElement('script');                    
-        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-</script>
-        <!-- Tableau Dashboard Embed Code Ends Here -->
+        <iframe width="100%" height="800"
+            src="https://public.tableau.com/views/TIPS_16877028294050/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link"
+            allowfullscreen></iframe>
     </div>
 </body>
+
 </html>
